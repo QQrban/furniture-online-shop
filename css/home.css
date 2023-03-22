@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;500;700&display=swap");
+.header, .main .home-header, .main .home-text {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #112942;
+}
+
+.main .featured-heading::before {
+  content: '';
+  position: absolute;
+  width: 2.5px;
+  height: 25px;
+  transform: rotate(15deg);
+}
+
+.header, .main .home-header, .main .home-text {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #112942;
+}
+
+.main .featured-heading::before {
+  content: '';
+  position: absolute;
+  width: 2.5px;
+  height: 25px;
+  transform: rotate(15deg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+  padding: 0 10px;
+  position: relative;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.header, .main .home-header, .main .home-text {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #112942;
+}
+
+.main .featured-heading::before {
+  content: '';
+  position: absolute;
+  width: 2.5px;
+  height: 25px;
+  transform: rotate(15deg);
+}
+
+.header {
+  margin-top: 20px;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav a {
+  margin-right: 30px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.header-nav a:hover {
+  text-shadow: 1px 1px 2px #9c9c9c;
+}
+
+.header-logo {
+  margin-left: -300px;
+  font-family: "Kaushan Script", italic;
+  z-index: 1;
+  font-size: 44px;
+  text-shadow: 0px 2px 3px rgba(104, 104, 104, 0.863);
+}
+
+.header-cart {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.header-cart-amount {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 14px;
+  right: -9px;
+  top: -6px;
+  width: 25px;
+  height: 25px;
+  font-size: 17px;
+  background-color: #ba5d2c;
+  border-radius: 50%;
+}
+
+.header, .main .home-header, .main .home-text {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #112942;
+}
+
+.main .featured-heading::before {
+  content: '';
+  position: absolute;
+  width: 2.5px;
+  height: 25px;
+  transform: rotate(15deg);
+}
+
+.item {
+  text-align: center;
+  cursor: pointer;
+}
+
+.item-img {
+  width: 280px;
+  height: 150px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 1px 1px 3px #011111;
+}
+
+.item-name {
+  margin-top: 12px;
+  color: #617d98;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.item-price {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 2px;
+  letter-spacing: 1px;
+  color: #324d67;
+}
+
+.header-burger-icon {
+  display: block;
+  width: 30px;
+  height: 18px;
+  cursor: pointer;
+  position: relative;
+  display: none;
+  z-index: 200;
+}
+
+.header-burger-icon span {
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+.header-burger-icon span:first-child {
+  top: 0;
+}
+
+.header-burger-icon span:last-child {
+  top: auto;
+  bottom: 0;
+}
+
+.header, .main .home-header, .main .home-text {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #112942;
+}
+
+.main .featured-heading::before {
+  content: '';
+  position: absolute;
+  width: 2.5px;
+  height: 25px;
+  transform: rotate(15deg);
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.938);
+}
+
+.checkout-cart {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -1000px;
+  height: 100%;
+  background-color: #f1f5f8;
+  width: 350px;
+  z-index: 6;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+}
+
+.checkout-cart.active {
+  display: block;
+  right: 0;
+}
+
+.checkout-cart-close {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+.checkout-cart-close span {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 80%;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #617d98;
+}
+
+.checkout-cart-close span:first-child {
+  transform: rotate(-45deg);
+  top: calc(50% - 1px);
+}
+
+.checkout-cart-close span:last-child {
+  transform: rotate(45deg);
+  top: calc(50% - 1px);
+}
+
+.checkout-cart h2 {
+  margin-top: 20px;
+  font-family: "Kaushan Script", italic;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 26px;
+}
+
+.checkout-cart-items {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 10px;
+}
+
+.checkout-cart .cart-item {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.checkout-cart .cart-item-block {
+  display: flex;
+  gap: 20px;
+}
+
+.checkout-cart .cart-item-img {
+  width: 90px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.checkout-cart .cart-text {
+  text-align: start;
+}
+
+.checkout-cart .cart-text .cart-name {
+  width: 150px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.checkout-cart .cart-text .cart-price {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #617d98;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.checkout-cart .cart-text .cart-remove {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.checkout-cart .cart-quantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-cart .cart-quantity-up {
+  cursor: pointer;
+}
+
+.checkout-cart .cart-quantity-down {
+  cursor: pointer;
+}
+
+.checkout-cart .cart-total {
+  margin-top: 250px;
+}
+
+.checkout-cart .total-price {
+  font-family: "Kaushan Script", italic;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.checkout-cart .total-btn {
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #ba5d2c;
+  font-size: 16px;
+  font-variant: small-caps;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 5px 80px;
+  border-radius: 5px;
+}
+
+.cover {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.589);
+  height: 100%;
+  z-index: 5;
+  display: none;
+}
+
+.cover.active {
+  display: block;
+}
+
+.main .home {
+  background: url(../img/background/home-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(48, 48, 48, 0.452);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+.main .home-container {
+  padding-top: 300px;
+  padding-bottom: 350px;
+}
+
+.main .home-header {
+  font-size: 54px;
+  font-family: "Kaushan Script", italic;
+  letter-spacing: 2.5px;
+}
+
+.main .home-text {
+  margin-top: 5px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.main .home-btn {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-variant: small-caps;
+  cursor: pointer;
+}
+
+.main .home-btn:hover {
+  background: #ffffff;
+  color: #112942;
+}
+
+.main .home-btn:active {
+  background: #f2f2f2;
+}
+
+.main .featured {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main .featured-heading {
+  margin: 50px auto 0;
+  width: 100px;
+  position: relative;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.main .featured-heading::before {
+  background-color: #ba5d2c;
+  top: 7px;
+  left: -20px;
+}
+
+.main .featured-items {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.main .featured-btn {
+  margin-top: 20px;
+  background-color: #ba5d2c;
+  color: #ffffff;
+  font-size: 17px;
+  font-variant: small-caps;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main .featured-btn:hover {
+  background-color: #b2592a;
+}
+
+.main .featured-btn:active {
+  background-color: #a55327;
+}
+
+@media (max-width: 1107px) {
+  .container {
+    width: 800px;
+  }
+  .header-container {
+    justify-content: space-around;
+  }
+  .header-logo {
+    margin: 0;
+  }
+  .catalogue-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 600px;
+  }
+  .header-container {
+    justify-content: space-around;
+  }
+  .catalogue-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 450px;
+  }
+  .header-container {
+    justify-content: space-between;
+    gap: 60px;
+  }
+  .header-nav {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 290px;
+    padding: 40px 0;
+    gap: 50px;
+    background-color: gray;
+    opacity: 0.9;
+    z-index: 24;
+    border-radius: 4px;
+  }
+  .header-nav.active {
+    top: 0px;
+    display: flex;
+  }
+  .header-nav a {
+    font-size: 42px;
+    color: #ffffff;
+  }
+  .header-burger-icon {
+    display: block;
+  }
+  .header-burger-icon.active span {
+    transition: 0.2s ease-in-out;
+    transform: scale(0);
+    background-color: #ffffff;
+  }
+  .header-burger-icon.active span:first-child {
+    transform: rotate(-45deg);
+    top: calc(50% - 1px);
+  }
+  .header-burger-icon.active span:last-child {
+    transform: rotate(45deg);
+    top: calc(50% - 1px);
+  }
+  .featured-items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 456px) {
+  .container {
+    width: 300px;
+  }
+  .home-container {
+    text-align: center;
+  }
+  .catalogue-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .catalogue-list p {
+    font-size: 24px;
+  }
+  .catalogue-list li {
+    font-size: 19px;
+  }
+  .filter-price-value {
+    font-size: 20px;
+  }
+  #price {
+    font-size: 24px;
+  }
+  .catalogue-filter-price .filter-price-value {
+    font-size: 24px;
+  }
+  .price-amount {
+    font-size: 24px;
+  }
+  .header-burger-icon span {
+    width: 160%;
+  }
+  .header-burger-icon span:first-child {
+    top: 0;
+  }
+  .header-burger-icon span:last-child {
+    top: auto;
+    bottom: 0;
+  }
+  .checkout-cart {
+    width: 300px;
+  }
+  .checkout-cart .cart-item {
+    justify-content: flex-start;
+  }
+  .checkout-cart .cart-total {
+    margin-top: 250px;
+  }
+}
